@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Global Smart Restaurants</string>
+    <string name="hello_world">Olá mundo</string>
+    <string name="title_restaurant">Restaurante</string>
+    <string name="title_activity_restaurant">Restaurante</string>
+    <string name="be_smart">Be smart...</string>
+    <string name="lorem">Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. O Lorem Ipsum tem vindo a ser o texto padrão usado por estas indústrias desde o ano de 1500, quando uma misturou os caracteres de um texto para criar um espécime de livro. Este texto não só sobreviveu 5 séculos, mas também o salto para a tipografia electrónica, mantendo-se essencialmente inalterada.</string>
+    <string name="meters">metros</string>
+    <string name="at">A</string>
+    <string name="recommended_dish">Prato Recomendado</string>
+    <string name="more_dishes">Mais pratos...</string>
+    <string name="dollars">\" Dólares.\"</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Global Smart Restaurants</string>
+    <string name="be_smart">كن ذكيا...</string>
+    <string name="hello_world">مرحبا بالعالم</string>
+    <string name="title_activity_restaurant">مطعم</string>
+    <string name="title_restaurant">مطعم</string>
+    <string name="lorem">مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم إيبسوم لأنها تعطي توزيعاَ طبيعياَ -إلى حد ما- للأحرف عوضاً عن استخدام \"هنا يوجد محتوى نصي، هنا يوجد محتوى نصي\" فتجعلها تبدو (أي الأحرف) وكأنها نص مقروء. العديد من برامح النشر المكتبي وبرامح تحرير صفحات ال</string>
+    <string name="meters">متر</string>
+    <string name="at">في</string>
+    <string name="recommended_dish">أوصى الصحن</string>
+    <string name="more_dishes">المزيد من الأطباق...</string>
+    <string name="dollars">\" دولار.\"</string>
+</resources>

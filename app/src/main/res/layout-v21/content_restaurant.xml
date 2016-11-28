@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="co.experimentality.globalsmartrestaurants.RestaurantActivity">
+    <!--tools:showIn="@layout/activity_restaurant">-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tvDistanceContentRestaurantActivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/text_margin"
+            android:layout_marginTop="@dimen/text_margin"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/tvRestaurantDescriptionContentRestaurantActivity"
+            android:layout_width="wrap_content"
+            android:layout_height="67dp"
+            android:layout_below="@id/tvDistanceContentRestaurantActivity"
+            android:layout_marginLeft="@dimen/text_margin"
+            android:layout_marginRight="@dimen/text_margin"
+            android:layout_marginTop="@dimen/text_margin"
+            android:text="@string/lorem" />
+
+        <TextView
+            android:id="@+id/tvScheduleContentRestaurantActivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvRestaurantDescriptionContentRestaurantActivity"
+            android:layout_marginLeft="@dimen/text_margin"
+            android:text="MTWTFS"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <TextView
+            android:id="@+id/tvRecommendedTitleContentRestaurantActivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvScheduleContentRestaurantActivity"
+            android:layout_marginLeft="@dimen/text_margin"
+            android:layout_marginTop="@dimen/text_margin"
+            android:text="@string/recommended_dish"
+            android:textAppearance="@android:style/TextAppearance.Material.Large" />
+
+
+        <RelativeLayout
+            android:id="@+id/rlDishInfo"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@id/tvRecommendedTitleContentRestaurantActivity">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/ivPhotoRecommendedDishContentRestaurantActivity"
+                android:layout_width="110dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/text_margin" />
+
+            <TextView
+                android:id="@+id/tvRecommendedNameContentRestaurantActivity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="@dimen/text_margin"
+                android:layout_marginLeft="@dimen/text_margin"
+                android:layout_toEndOf="@+id/ivPhotoRecommendedDishContentRestaurantActivity"
+                android:textAppearance="@android:style/TextAppearance.Material.Large" />
+
+            <TextView
+                android:id="@+id/tvRecommendedPriceContentRestaurantActivity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/tvRecommendedNameContentRestaurantActivity"
+                android:layout_below="@+id/tvRecommendedNameContentRestaurantActivity"
+                android:textAppearance="@android:style/TextAppearance.Material.Medium" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tvMoreRecommendedTitleContentRestaurantActivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rlDishInfo"
+            android:layout_marginLeft="@dimen/text_margin"
+            android:layout_marginTop="@dimen/text_margin"
+            android:text="@string/more_dishes"
+            android:textAppearance="@android:style/TextAppearance.Material.Large" />
+
+    </RelativeLayout>
+
+
+</android.support.v4.widget.NestedScrollView>

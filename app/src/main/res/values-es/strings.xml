@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Global Smart Restaurants</string>
+    <string name="hello_world">Hola Mundo!</string>
+    <string name="title_restaurant">Restaurante</string>
+    <string name="title_activity_restaurant">Restaurante</string>
+    <string name="action_settings"></string>
+    <string name="be_smart">Be smart...</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc accumsan magna at dictum ullamcorper. Vestibulum eget imperdiet neque, nec imperdiet mauris. Donec sit amet dignissim diam, vel bibendum nisi. Pellentesque quam urna, interdum vitae felis at, vulputate fringilla est. In volutpat velit vitae lorem ornare, a imperdiet nibh posuere. Donec dapibus nulla a lorem gravida sodales. Sed a eros accumsan, luctus sem et, sodales lectus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
+    <string name="meters">metros</string>
+    <string name="at">A</string>
+    <string name="recommended_dish">Plato recomendado</string>
+    <string name="more_dishes">Más platos...</string>
+    <string name="dollars">\" dolares.\"</string>
+</resources>

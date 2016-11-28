@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Global Smart Restaurants</string>
+    <string name="hello_world">こんにちは世界</string>
+    <string name="title_restaurant">レストラン</string>
+    <string name="title_activity_restaurant">レストラン</string>
+    <string name="be_smart">スマートに...</string>
+    <string name="lorem">Loremのイプサムは、印刷や印刷業界のモデルのテキストです。Loremのイプサムは、テキストの混合文字がタイプ標本の本を作成するときに、1500年代以来、これらの産業で使用される標準的なテキストとなっています。これは本質的に変わらず、5世紀だけでなく、電子組版に飛躍だけでなく、生き残りました。</string>
+    <string name="meters">メートル</string>
+    <string name="at">で</string>
+    <string name="recommended_dish">お薦めの料理</string>
+    <string name="more_dishes">料理をもっと...</string>
+    <string name="dollars">\"「ドル。」\"</string>
+</resources>
